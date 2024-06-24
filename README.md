@@ -1,14 +1,54 @@
-#Knowledge Tool
 
-#Description:
-  This section details incorporating Gemini clones into your project. You'll leverage the Gemini API to transmit queries and retrieve corresponding responses. The API facilitates communication with various Gemini 
-  instances, enabling you to harness their collective capabilities for enhanced results.
+# Knowlodge-Tool 
+
+This section details incorporating Gemini clones into your project. You'll leverage the Gemini API to transmit queries and retrieve corresponding responses. The API facilitates communication with various Gemini instances, enabling you to harness their collective capabilities for enhanced results. 
 
 
-#Local Inatallation:
-  1. clone this repo
-  2. ```cd frontend``` and ```npm install```
-  3. ```cd backend``` and ```npm install```
-  4. add ```.env``` file in backend and set ```API_KEY```
-  5. open frontend integreted terminal and run ```npm run dev```
-  6. open backend integreted terminal and run ```nodemon index.js``` /```node index.js```  
+## Tech Stack
+
+**Client:** React, TailwindCSS
+
+**Server:** Node, Express, MongoDB
+
+
+## Features
+
+- Enter any type of query and get relevent answer
+- Cross platform
+- Responsive
+
+
+## Installation
+
+Clone this repo
+``` bash
+ git clone https://github.com/deepvanapariya/veggify.git
+```
+Install frontend with npm 
+
+ ```bash
+  cd frontend
+  npm install 
+  npm run dev
+```
+setup env variable for gemini api
+
+```bash
+API_KEY="DemoKey"
+```
+new terminal for backend 
+```bash
+ cd backend
+ npm install
+ npm run start
+```
+
+## Author
+
+- [@deepvanapariya](https://www.github.com/deepvanapariya)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at @deepvanapariya88@gmail.com
+
